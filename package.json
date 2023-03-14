@@ -5,7 +5,7 @@
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec babel-node ./Server/quiz.js",
+    "start": "nodemon --exec babel-node ./Week03/Server/index3.js",
     "db": "sequelize-auto -o ./schemas -d hr-db -h localhost -u postgres -p 5432 -x ilham -e postgres"
   },
   "author": "",
